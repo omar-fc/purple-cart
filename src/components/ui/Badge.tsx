@@ -16,7 +16,10 @@ const TONES: Record<Tone, string> = {
 export function Badge({ tone = 'neutral', children }: { tone?: Tone; children: ReactNode }) {
   return (
     <span
-      className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-semibold ${TONES[tone]}`}
+      // `whitespace-nowrap` keeps multi-word labels (e.g. "In Stock") on one
+      // line; `shrink-0` stops the pill from being squeezed by a long sibling
+      // title in flex rows (which was forcing it to wrap and grow vertically).
+      className={`inline-flex shrink-0 items-center whitespace-nowrap rounded-full px-2.5 py-0.5 text-xs font-semibold ${TONES[tone]}`}
     >
       {children}
     </span>
