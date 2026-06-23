@@ -45,7 +45,10 @@ export function CustomizationPanel({
                   type="button"
                   aria-pressed={isSelected}
                   onClick={() => onSelect(component.id, option.id)}
-                  className={`focus-ring relative flex min-w-24 flex-col items-start gap-0.5 rounded-xl border px-4 py-2.5 text-start transition-all ${
+                  // `pe-9` reserves inline-end room for the selected check so
+                  // it never overlaps the label; reserved always (not just when
+                  // selected) to avoid layout shift on selection.
+                  className={`focus-ring relative flex min-w-24 flex-col items-start gap-0.5 rounded-xl border py-2.5 ps-4 pe-9 text-start transition-all ${
                     isSelected
                       ? 'border-brand bg-brand/5 ring-1 ring-brand dark:border-brand-dark dark:bg-brand-dark/10 dark:ring-brand-dark'
                       : 'border-black/10 hover:border-brand/40 dark:border-white/10 dark:hover:border-brand-dark/40'
