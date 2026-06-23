@@ -40,8 +40,9 @@ export function Navbar() {
           <span className="hidden sm:inline">{t('common.brand')}</span>
         </Link>
 
-        {/* Search */}
-        <form onSubmit={onSearch} className="relative flex-1 max-w-xl">
+        {/* Search — capped width; a flexible spacer after it pushes the
+            controls to the inline-end edge instead of sitting beside it. */}
+        <form onSubmit={onSearch} className="relative w-full max-w-xs flex-1 sm:max-w-sm md:max-w-md">
           {/* Logical inset (start) so the icon sits correctly in LTR & RTL */}
           <span className="pointer-events-none absolute inset-y-0 start-0 flex items-center ps-3 text-content-light-secondary dark:text-content-dark-secondary">
             <SearchIcon />
@@ -55,6 +56,10 @@ export function Navbar() {
             className="focus-ring w-full rounded-lg border border-black/10 bg-surface-light-alt py-2 ps-10 pe-3 text-sm text-content-light-primary placeholder:text-content-light-secondary dark:border-white/10 dark:bg-surface-dark-alt dark:text-content-dark-primary dark:placeholder:text-content-dark-secondary"
           />
         </form>
+
+        {/* Flexible spacer: absorbs the free space so the controls below sit at
+            the inline-end edge of the header, away from the search bar. */}
+        <div className="flex-1" aria-hidden="true" />
 
         {/* Controls */}
         <div className="flex items-center gap-1">
