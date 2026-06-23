@@ -1,0 +1,125 @@
+{
+  "common": {
+    "brand": "بيربل كارت",
+    "loading": "جارٍ التحميل…",
+    "error": "حدث خطأ ما.",
+    "retry": "حاول مرة أخرى",
+    "empty": "لا يوجد شيء لعرضه بعد.",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "add": "إضافة",
+    "create": "إنشاء",
+    "confirm": "تأكيد",
+    "actions": "إجراءات",
+    "search": "ابحث عن المنتجات…",
+    "all": "الكل"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "cart": "السلة",
+    "account": "الحساب",
+    "admin": "الإدارة",
+    "toggleTheme": "تبديل المظهر",
+    "toggleLanguage": "تغيير اللغة",
+    "categories": "الفئات"
+  },
+  "home": {
+    "heroTitle": "اصنعه بطريقتك تماماً.",
+    "heroSubtitle": "إلكترونيات وأثاث وملابس فاخرة — مخصصة لتناسبك.",
+    "heroCta": "تسوق الآن",
+    "shopByCategory": "تسوق حسب الفئة",
+    "featured": "منتجات مميزة"
+  },
+  "plp": {
+    "resultsCount": "{{count}} منتج",
+    "resultsCount_other": "{{count}} منتجات",
+    "page": "صفحة {{current}} من {{total}}",
+    "previous": "السابق",
+    "next": "التالي",
+    "noProducts": "لا توجد منتجات في هذه المجموعة."
+  },
+  "pdp": {
+    "customize": "تخصيص",
+    "addToCart": "أضف إلى السلة",
+    "outOfStock": "غير متوفر",
+    "inStock": "متوفر",
+    "lowStock": "بقي {{count}} فقط",
+    "total": "الإجمالي",
+    "tabs": {
+      "description": "الوصف",
+      "specs": "المواصفات",
+      "reviews": "التقييمات"
+    },
+    "noReviews": "لا توجد تقييمات بعد. كن أول من يقيّم هذا المنتج.",
+    "addedToCart": "تمت الإضافة إلى سلتك"
+  },
+  "cart": {
+    "title": "سلتك",
+    "empty": "سلتك فارغة.",
+    "continueShopping": "متابعة التسوق",
+    "quantity": "الكمية",
+    "remove": "إزالة",
+    "subtotal": "المجموع الفرعي",
+    "checkout": "إتمام الشراء",
+    "itemTotal": "إجمالي المنتج"
+  },
+  "admin": {
+    "title": "بوابة الإدارة",
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "username": "اسم المستخدم",
+    "password": "كلمة المرور",
+    "loginPrompt": "سجّل الدخول لإدارة الكتالوج.",
+    "loginError": "بيانات غير صحيحة. جرّب admin / admin.",
+    "dashboard": "لوحة التحكم",
+    "manageCategories": "الفئات",
+    "manageProducts": "المنتجات",
+    "stats": {
+      "products": "المنتجات",
+      "categories": "الفئات",
+      "subCategories": "الفئات الفرعية",
+      "outOfStock": "غير متوفر"
+    },
+    "categories": {
+      "title": "إدارة الفئات",
+      "addCategory": "إضافة فئة",
+      "addSubCategory": "إضافة فئة فرعية",
+      "nameEn": "الاسم (إنجليزي)",
+      "nameAr": "الاسم (عربي)",
+      "slug": "المعرف",
+      "parentCategory": "الفئة الأم",
+      "confirmDelete": "حذف هذه الفئة وفئاتها الفرعية؟"
+    },
+    "products": {
+      "title": "إدارة المنتجات",
+      "addProduct": "إضافة منتج",
+      "newProduct": "منتج جديد",
+      "editProduct": "تعديل المنتج",
+      "specLabel": "اسم المواصفة",
+      "specValue": "القيمة",
+      "titleEn": "العنوان (إنجليزي)",
+      "titleAr": "العنوان (عربي)",
+      "descEn": "الوصف (إنجليزي)",
+      "descAr": "الوصف (عربي)",
+      "basePrice": "السعر الأساسي (دولار)",
+      "stock": "كمية المخزون",
+      "imageUrl": "رابط الصورة",
+      "subCategory": "الفئة الفرعية",
+      "components": "المكونات القابلة للتخصيص",
+      "addComponent": "إضافة مكوّن",
+      "componentName": "اسم المكوّن",
+      "addOption": "إضافة خيار",
+      "optionName": "اسم الخيار",
+      "priceModifier": "السعر +/-",
+      "default": "افتراضي",
+      "confirmDelete": "حذف هذا المنتج؟",
+      "saved": "تم حفظ المنتج."
+    }
+  },
+  "currency": {
+    "usd": "دولار",
+    "egp": "ج.م"
+  }
+}

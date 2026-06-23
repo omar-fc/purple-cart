@@ -1,0 +1,125 @@
+{
+  "common": {
+    "brand": "PurpleCart",
+    "loading": "Loading…",
+    "error": "Something went wrong.",
+    "retry": "Try again",
+    "empty": "Nothing to show here yet.",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "add": "Add",
+    "create": "Create",
+    "confirm": "Confirm",
+    "actions": "Actions",
+    "search": "Search products…",
+    "all": "All"
+  },
+  "nav": {
+    "home": "Home",
+    "cart": "Cart",
+    "account": "Account",
+    "admin": "Admin",
+    "toggleTheme": "Toggle theme",
+    "toggleLanguage": "Switch language",
+    "categories": "Categories"
+  },
+  "home": {
+    "heroTitle": "Build it exactly your way.",
+    "heroSubtitle": "Premium electronics, furniture, and apparel — customized to fit you.",
+    "heroCta": "Shop now",
+    "shopByCategory": "Shop by Category",
+    "featured": "Featured Products"
+  },
+  "plp": {
+    "resultsCount": "{{count}} product",
+    "resultsCount_other": "{{count}} products",
+    "page": "Page {{current}} of {{total}}",
+    "previous": "Previous",
+    "next": "Next",
+    "noProducts": "No products found in this collection."
+  },
+  "pdp": {
+    "customize": "Customize",
+    "addToCart": "Add to Cart",
+    "outOfStock": "Out of Stock",
+    "inStock": "In Stock",
+    "lowStock": "Only {{count}} left",
+    "total": "Total",
+    "tabs": {
+      "description": "Description",
+      "specs": "Specifications",
+      "reviews": "Reviews"
+    },
+    "noReviews": "No reviews yet. Be the first to review this product.",
+    "addedToCart": "Added to your cart"
+  },
+  "cart": {
+    "title": "Your Cart",
+    "empty": "Your cart is empty.",
+    "continueShopping": "Continue shopping",
+    "quantity": "Qty",
+    "remove": "Remove",
+    "subtotal": "Subtotal",
+    "checkout": "Checkout",
+    "itemTotal": "Item total"
+  },
+  "admin": {
+    "title": "Admin Portal",
+    "login": "Sign in",
+    "logout": "Sign out",
+    "username": "Username",
+    "password": "Password",
+    "loginPrompt": "Sign in to manage the catalog.",
+    "loginError": "Invalid credentials. Try admin / admin.",
+    "dashboard": "Dashboard",
+    "manageCategories": "Categories",
+    "manageProducts": "Products",
+    "stats": {
+      "products": "Products",
+      "categories": "Categories",
+      "subCategories": "Subcategories",
+      "outOfStock": "Out of stock"
+    },
+    "categories": {
+      "title": "Manage Categories",
+      "addCategory": "Add Category",
+      "addSubCategory": "Add Subcategory",
+      "nameEn": "Name (English)",
+      "nameAr": "Name (Arabic)",
+      "slug": "Slug",
+      "parentCategory": "Parent category",
+      "confirmDelete": "Delete this and its subcategories?"
+    },
+    "products": {
+      "title": "Manage Products",
+      "addProduct": "Add Product",
+      "newProduct": "New Product",
+      "editProduct": "Edit Product",
+      "specLabel": "Spec name",
+      "specValue": "Value",
+      "titleEn": "Title (English)",
+      "titleAr": "Title (Arabic)",
+      "descEn": "Description (English)",
+      "descAr": "Description (Arabic)",
+      "basePrice": "Base price (USD)",
+      "stock": "Stock quantity",
+      "imageUrl": "Image URL",
+      "subCategory": "Subcategory",
+      "components": "Customizable Components",
+      "addComponent": "Add Component",
+      "componentName": "Component name",
+      "addOption": "Add Option",
+      "optionName": "Option name",
+      "priceModifier": "Price +/-",
+      "default": "Default",
+      "confirmDelete": "Delete this product?",
+      "saved": "Product saved."
+    }
+  },
+  "currency": {
+    "usd": "USD",
+    "egp": "EGP"
+  }
+}
